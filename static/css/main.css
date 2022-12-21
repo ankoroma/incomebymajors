@@ -25,7 +25,12 @@ h3 {
 h4 {
     text-align: center;
     color: red;
+    font-size: 20px;
+}
+h5 {
+    color: navy;
     font-size: 25px;
+    font-style: italic;
 }
 
 p {
@@ -49,24 +54,30 @@ li {
 }
 
 a:link {
-    color: blue;
-    text-decoration: none;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: purple;
-    text-decoration: none;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: red;
-    text-decoration: underline;
-  }
-  
-  /* selected link */
-  a:active {
-    color: blue;
-    text-decoration: underline;
-  }
+color: blue;
+text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+color: purple;
+text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+color: red;
+text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+color: blue;
+text-decoration: underline;
+}
+
+img {
+    display:block; 
+    margin-left:auto; 
+    margin-right:auto
+}
