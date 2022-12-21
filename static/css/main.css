@@ -22,10 +22,22 @@ h3 {
     margin: 0;
 }
 
+p {
+    font-size: 20px;
+}
+
 .bold {
     font-weight: bold;
 }
 
-p {
+.italic {
+    font-style: italic;
+}
+
+li {
     font-size: 20px;
+}
+
+.center {
+    text-align: center;
 }
