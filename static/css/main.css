@@ -22,6 +22,12 @@ h3 {
     margin: 0;
 }
 
+h4 {
+    text-align: center;
+    color: red;
+    font-size: 25px;
+}
+
 p {
     font-size: 20px;
 }
@@ -41,3 +47,26 @@ li {
 .center {
     text-align: center;
 }
+
+a:link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: purple;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: underline;
+  }
